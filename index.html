@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dreamers</title>
+
+    <link href="app/css/bootstrap.css" rel="stylesheet">
+    <link href="app/css/style.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Oleo+Script:400,700&subset=cyrillic,cyrillic-ext,latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script src="app/libs/jquery.js"></script>
+  </head>
+
+  <body id="home" ng-app="app" ng-controller="LanguageCtrl">
+    
+<!--     <nav class="opacity-nav navbar navbar-default hidden-xs" 
+      role="navigation">
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a data-scroll href="#home">Home</a></li>
+        <li><a data-scroll href="#team">Team</a></li>
+        <li><a data-scroll href="#technologies">Technologies</a></li>
+        <li><a data-scroll href="#works">Works</a></li>
+        <li><a data-scroll href="#contact-us">Contact us</a></li>
+      </ul>
+    </nav> -->
+    </div>
+    <header >
+      <div class="title">
+        <p class="text-center slogan">"I have a dream...</p>
+        <p class="text-center slogan">...I have a dream today"</p>
+        <p class="text-center title-author" >Martin Luther King, Jr.</p>
+        
+        <div class="text-center">
+          <div class="btn-group" role="group" >
+<!--             <button type="button"
+              class="languages btn btn-default"
+              ng-click="setLanguage('eng')">ENG</button> -->
+            <button type="button"
+              class="languages btn btn-default"
+              ng-click="setLanguage('uan')">UAN</button>
+<!--             <button type="button"
+              class="languages btn btn-default"
+              ng-click="setLanguage('hun')">HUN</button> -->
+            <button type="button"
+              class="languages btn btn-default"
+              ng-click="setLanguage('rus')">RUS</button>
+
+          </div>
+        </div>
+      </div>
+      <div class="title-parallax-window" data-parallax="scroll" data-image-src="app/imgs/macbook-air-all-faded-and-stuff.jpg"></div>
+    </header>
+
+    <section class="about-section center-block">
+      <h1 class="text-center styled-title">"I have a dream today"</h1>
+      <p class="text-center styled-text">{{language.about}}</p>
+    </section>
+
+    <section class="first-step">
+      <div class="row my-row">
+        <div class="col-md-6 col-xs-6">
+          <img src="app/icons/paper_plane.png" class="step-img center-block">
+          <h1 class="text-center styled-title">Have you a dream?</h1>
+          <p class="text-center styled-text">{{language.first_step}}</p>
+        </div>
+      </div>
+      <div class="row my-row">
+        <div class="col-md-6 col-xs-6"></div>
+        <div class="col-md-6 col-xs-6">
+          <img src="app/icons/light_bulb.png" class="step-img center-block">
+          <h1 class="text-center styled-title">Wath's your dream?</h1>
+          <p class="text-center styled-text">{{language.second_step}}</p>
+        </div>
+      </div>
+      <div class="row my-row">
+        <div class="col-md-6 col-xs-6">
+          <img src="app/icons/pencil.png" class="step-img center-block">
+          <h1 class="text-center styled-title">How it's work?</h1>
+          <p class="text-center styled-text">{{language.third_step}}</p>
+        </div>
+      </div>
+      <div class="row my-row">
+        <div class="col-md-6 col-xs-6"></div>
+        <div class="col-md-6 col-xs-6">
+          <img src="app/icons/check_mark.png" class="step-img center-block">
+          <h1 class="text-center styled-title">Success!</h1>
+          <p class="text-center styled-text">{{language.fourth_step}}</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="team">
+      <h1 class="text-center styled-title">The Dreamers</h1>
+      <p class="text-center styled-text">{{language.dream_team}}</p>
+      <br>
+      <div class="center-block">
+        <div class="row">
+          <div class="col-xs-4 col-md-4">
+            <img src="app/imgs/avatar.png" class="img-circle center-block avatar">
+            <h3 class="text-center styled-title">Ruslan Harahonuch</h3>
+            <p class="text-center styled-text">Ruby on Rails and WEB developer</p>
+          </div>
+          <div class="col-xs-4 col-md-4">
+            <img src="app/imgs/avatar.png" class="img-circle center-block avatar">
+            <h3 class="text-center styled-title">Parlah Volodya</h3>
+            <p class="text-center styled-text">IOS and WEB developer</p>
+          </div>
+          <div class="col-xs-4 col-md-4">
+            <img src="app/imgs/avatar.png" class="img-circle center-block avatar">
+            <h3 class="text-center styled-title">Spachynskij Vasya</h3>
+            <p class="text-center styled-text">Java, Android and WEB developer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="parallax-window" data-parallax="scroll" data-image-src="app/imgs/tools.jpg">
+    <section id="technologies">
+      <h1 class="text-center styled-title">Technologies</h1>
+      <br>
+      <div class="center-block">
+        <div class="row">
+          <div class="col-md-4 col-xs-4">
+            <img class="center-block step-img" src="app/icons/html2.png" >
+            <br>
+            <h3 class="text-center styled-subtitle">WEB</h3>
+            <p class="text-center styled-text">{{language.web_tech}}</p>
+          </div>
+          <div class="col-md-4 col-xs-4">
+            <img class="center-block step-img" src="app/icons/android2.png" >
+            <br>
+            <h3 class="text-center styled-subtitle">Mobile</h3>
+            <p class="text-center styled-text">{{language.mobile_tech}}</p>
+          </div>
+          <div class="col-md-4 col-xs-4">
+            <img class="center-block step-img" src="app/icons/personal5.png" >
+            <br>
+            <h3 class="text-center styled-subtitle">Decstop</h3>
+            <p class="text-center styled-text">{{language.desktop_tech}}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+    <section id="works">
+      <h1 class="text-center styled-title">Works</h1>
+      <div class="row">
+        <div class="col-md-4 col-xs-6" >
+          <figure class="effect-duke">
+            <img src="app/imgs/work1.jpg" alt="img01"/>
+            <figcaption>
+              <h2>Author's <span>furnitures</span></h2>
+              <p>Виготовлення меблів на замовлення</p>
+              <a href="http://www.design-mebli.in.ua/">View more</a>
+            </figcaption>     
+          </figure>
+        </div>
+        <div class="col-md-4 col-xs-6">
+          <figure class="effect-duke">
+            <img src="app/imgs/work1.jpg" alt="img01"/>
+            <figcaption>
+              <h2>Author's <span>furnitures</span></h2>
+              <p>Виготовлення меблів на замовлення</p>
+              <a href="http://www.design-mebli.in.ua/">View more</a>
+            </figcaption>     
+          </figure>
+        </div>
+        <div class="col-md-4 col-xs-6">
+          <figure class="effect-duke">
+            <img src="app/imgs/work1.jpg" alt="img01"/>
+            <figcaption>
+              <h2>Author's <span>furnitures</span></h2>
+              <p>Виготовлення меблів на замовлення</p>
+              <a href="http://www.design-mebli.in.ua/">View more</a>
+            </figcaption>     
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id='contact-us'>
+      <h1 class="text-center styled-title">Contact us</h1>
+      <form role="form" class="center-block">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Name">
+        </div>
+
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Email">
+        </div>
+
+        <textarea class="form-control" 
+          rows="3" 
+          placeholder="What do you want to ask us?">
+        </textarea>
+        <br>
+        <button type="button" 
+          class="center-block btn btn-default button-text">Submit</button>
+      </form>
+    </section>
+    <img src="app/imgs/one-day2.jpg" class="footer-image img-responsive">
+
+    <div class="one-day-block center-block">
+      <h1 class="text-center styled-title">One day</h1>
+      <p class="text-center styled-text">{{language.one_day}}</p>  
+      <p class="text-center styled-text">Copyright © 2015</p>
+    </div>
+    
+    <script src="app/libs/angular.js"></script>
+    <script src="app/libs/smooth-scroll.js"></script>
+    <script src="app/libs/parallax.js"></script>
+    <script src="app/scripts/script.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,278 @@
+section {
+	background-color: white;
+}
+footer {
+	background-color: white;
+	padding: 20px;
+}
+form {
+	width: 300px;
+}
+h1, h2, h3, .button-text, .title {
+	font-family: 'Oleo Script', cursive;
+}
+p, a {
+	font-style: italic;
+}
+.title-parallax-window {
+	height: 600px;
+}
+.parallax-window {
+	height: 400px;
+}
+.parallax-window > section {
+	background-color: transparent;
+	color: white;
+	padding: 50px;
+}
+.row.my-row {
+	padding-bottom: 1em; 
+}
+.opacity-nav {
+	position: fixed;
+	width: 100%;
+	padding-right: 25px;
+	z-index: 100;
+}
+.title{
+	position: absolute;
+	color: white;
+	font-size: 30pt;
+  	left: 10%;
+	right: 10%;
+	top: 30%;
+}
+.title-author {
+	margin-left: 20px;
+	font-size: 20pt;
+}
+.slogan {
+	font-style: normal;
+}
+.languages {
+	font-size: 13px;
+	background: none;
+	color: white;
+}
+.languages:hover,
+.languages:focus {
+	color: #ccc;
+	background: none;
+}
+/*.img-background {
+	position: fixed;
+	z-index: -100;
+}*/
+.button-text {
+	font-size: 15pt;
+}
+.about-section{
+	width: 70%;
+	margin-bottom: 50px;
+}
+.avatar {
+	width: 130px;
+	height: 130px;
+}
+
+.step-img {
+	height: 50px;
+}
+.styled-title {
+	font-size: 15pt;
+}
+.styled-text {
+	font-size: 10pt;
+}
+.styled-subtext {
+	font-size: 8pt;
+}
+.one-day-block {
+	width: 80%;
+	color: black;
+	padding-top: 10px;
+}
+
+.footer-image {
+	position: absolute;
+	z-index: -10;
+}
+
+@media (min-width: 768px) {
+	section {
+		padding: 70px;
+	}
+	.parallax-window {
+		height: 600px;
+	}
+	.opacity-nav {
+		width: 100%;
+		padding-right: 30px;
+	}
+	form {
+		width: 50%;
+	}
+	.avatar {
+		width: 200px;
+		height: 200px;
+	}
+	.title {
+		font-size: 40pt;
+		top: 25%;
+	}
+	.title-author {
+		margin-left: 200px;
+		font-size: 25pt;
+	}
+	.languages {
+		font-size: 20px;
+	}
+	.step-img {
+		height: 100px;
+	}
+	.styled-title {
+		font-size: 30pt;
+	}
+	.styled-text {
+		font-size: 15pt;
+	}
+	.styled-subtext {
+		font-size: 20pt;
+	}
+	.one-day-block {
+		padding-top: 200px;
+	}
+	.row {
+		max-width: 1000px;
+	}
+}
+
+.row {
+	position: relative;
+	margin: 0 auto;
+	padding: 1em 0 4em;
+	list-style: none;
+	text-align: center;
+}
+
+.row figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 10px 1%;
+	width: 100%;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+}
+
+.row figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.row figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.20em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.row figure figcaption::before,
+.row figure figcaption::after {
+	pointer-events: none;
+}
+
+.row figure figcaption,
+.row figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+.row figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.row figure h2 {
+	font-size: 20pt;
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+
+.row figure h2 span {
+	font-weight: 800;
+}
+
+.row figure h2,
+.row figure p {
+	margin: 0;
+}
+
+.row figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+
+figure.effect-duke {
+	background: -webkit-linear-gradient(-45deg, #34495e 0%,#cc6055 100%);
+	background: linear-gradient(-45deg, #34495e 0%,#cc6055 100%);
+}
+
+figure.effect-duke img,
+figure.effect-duke p {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-duke:hover img {
+	opacity: 0.1;
+	-webkit-transform: scale3d(2,2,1);
+	transform: scale3d(2,2,1);
+}
+
+figure.effect-duke h2 {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: scale3d(0.8,0.8,1);
+	transform: scale3d(0.8,0.8,1);
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	opacity: 0;
+}
+
+figure.effect-duke p {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 20px;
+	padding: 20px;
+	border: 2px solid #fff;
+	text-transform: none;
+	font-size: 90%;
+	opacity: 0;
+	-webkit-transform: scale3d(0.8,0.8,1);
+	transform: scale3d(0.8,0.8,1);
+	-webkit-transform-origin: 50% -100%;
+	transform-origin: 50% -100%;
+}
+
+figure.effect-duke:hover h2,
+figure.effect-duke:hover p {
+	opacity: 1;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}

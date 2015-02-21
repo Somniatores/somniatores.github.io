@@ -1,0 +1,7 @@
+app/bower_components/*
+app/node_modules/*
+
+app/package.json
+app/npm-debug.log
+
+divshot.json

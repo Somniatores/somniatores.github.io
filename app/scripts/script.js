@@ -10,6 +10,8 @@ $(function () {
     }).trigger('resize');
   }
 
+  $("html").niceScroll();
+
   smoothScroll.init();
 });
 

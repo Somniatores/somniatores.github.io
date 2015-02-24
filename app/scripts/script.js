@@ -1,3 +1,8 @@
+jQuery("html").niceScroll({
+    scrollspeed: 50,
+    mousescrollstep: 38
+});
+
 $(function () {
   if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
     $('#ios-notice').removeClass('hidden');
@@ -9,8 +14,6 @@ $(function () {
       $('.parallax-container').height(parallaxHeight);
     }).trigger('resize');
   }
-
-  $("html").niceScroll();
 
   smoothScroll.init();
 });

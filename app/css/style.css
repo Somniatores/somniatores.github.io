@@ -19,7 +19,7 @@ p, a {
 .parallax-window > section {
 	background-color: transparent;
 	color: white;
-	padding: 50px;
+	padding: 10px;
 }
 .row.my-row {
 	padding-bottom: 1em; 
@@ -100,6 +100,9 @@ p, a {
 	}
 	.parallax-window {
 		height: 600px;
+	}
+	.parallax-window > section {
+		padding: 50px;
 	}
 	.opacity-nav {
 		width: 100%;

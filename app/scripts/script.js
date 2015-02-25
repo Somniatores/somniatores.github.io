@@ -1,7 +1,7 @@
-jQuery("html").niceScroll({
-    scrollspeed: 60,
-    mousescrollstep: 50
-});
+// jQuery("html").niceScroll({
+//     scrollspeed: 60,
+//     mousescrollstep: 50
+// });
 
 $(function () {
   if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
@@ -19,9 +19,30 @@ $(function () {
 });
 
 var app = angular.module("app", []);
+var navLang = navigator.language;
 
 app.controller('LanguageCtrl', ['$scope', function LanguageController($scope) {
+  
+
+
+
+   if (navLang == 'ua') {
+
+  $scope.language = texts.rus;
+
+} else if (navLang == 'ru') {
+
   $scope.language = texts.uan;
+
+} else {
+
+  $scope.language = texts.eng;
+
+}
+
+  
+
+
   $scope.setLanguage = function (language) {
     $scope.language = texts[language];
   };

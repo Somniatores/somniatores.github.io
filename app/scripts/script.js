@@ -19,29 +19,20 @@ $(function () {
 });
 
 var app = angular.module("app", []);
+
 var navLang = navigator.language;
 
 app.controller('LanguageCtrl', ['$scope', function LanguageController($scope) {
-  
 
+  if (navLang == 'uk') {
+    $scope.language = texts.uan;
 
+  } else if (navLang == 'ru') {
+    $scope.language = texts.rus;
 
-   if (navLang == 'ua') {
-
-  $scope.language = texts.rus;
-
-} else if (navLang == 'ru') {
-
-  $scope.language = texts.uan;
-
-} else {
-
-  $scope.language = texts.eng;
-
-}
-
-  
-
+  } else {
+    $scope.language = texts.eng;
+  }
 
   $scope.setLanguage = function (language) {
     $scope.language = texts[language];

@@ -1,6 +1,6 @@
 jQuery("html").niceScroll({
-    scrollspeed: 50,
-    mousescrollstep: 38
+    scrollspeed: 40,
+    mousescrollstep: 40
 });
 
 $(function () {

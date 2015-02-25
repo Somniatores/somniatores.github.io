@@ -52,4 +52,16 @@ var texts = {
     desktop_tech: "Хочемо мати досвід у створенні настільного програмного забезпечення",
     one_day: "Одного дня ми будемо мати достатньо досвіду і ресурсів щоб працювати лише на свої мрії."
   }
+  eng: {
+    about: "Everybody has a dream. Dreams we move forvard to, by tiny and little steps. We belive, that our way to the bright future lies threw our collective effort. And we trust, that we'll make it",
+    first_step: "Make your first step! Tell us about your dream over coffe",
+    second_step: "Your vision of idea we embody in technical plan, that conform together",
+    third_step: "During developing we make active communication and share our results",
+    fourth_step: "In time project release and future support",
+    dream_team: "The Dreamers Team, which make Your Dream come true",
+    web_tech: "Developing powerfull WEB application using modern frameworks: AngularJS, BackboneJS, Ruby on Rails",
+    mobile_tech: "We developing for all mobile platforms",
+    desktop_tech: "Loking for experience in creating desktop applications",
+    one_day: "One day we'll have enuff experience and resourses working only for our dreams"
+}
 };

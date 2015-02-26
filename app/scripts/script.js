@@ -1,7 +1,7 @@
-jQuery("html").niceScroll({
-    scrollspeed: 40,
-    mousescrollstep: 40
-});
+// jQuery("html").niceScroll({
+//     scrollspeed: 60,
+//     mousescrollstep: 50
+// });
 
 $(function () {
   if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
@@ -20,8 +20,20 @@ $(function () {
 
 var app = angular.module("app", []);
 
+var navLang = navigator.language;
+
 app.controller('LanguageCtrl', ['$scope', function LanguageController($scope) {
-  $scope.language = texts.uan;
+
+  if (navLang == 'uk') {
+    $scope.language = texts.uan;
+
+  } else if (navLang == 'ru') {
+    $scope.language = texts.rus;
+
+  } else {
+    $scope.language = texts.eng;
+  }
+
   $scope.setLanguage = function (language) {
     $scope.language = texts[language];
   };
@@ -53,12 +65,12 @@ var texts = {
     one_day: "Одного дня ми будемо мати достатньо досвіду і ресурсів щоб працювати лише на свої мрії."
   },
   eng: {
-    about: "Everybody has a dream. Dreams we move forvard to, by tiny and little steps. We belive, that our way to the bright future lies threw our collective effort. And we trust, that we'll make it",
-    first_step: "Make your first step! Tell us about your dream over coffe",
-    second_step: "Your vision of idea we embody in technical plan, that conform together",
-    third_step: "During developing we make active communication and share our results",
-    fourth_step: "In time project release and future support",
-    dream_team: "The Dreamers Team, which make Your Dream come true",
+    about: "Everybody has a dream. Dreams we move forvard to by tiny and little steps. We belive, that our way to the bright future lies threw our collective effort. And we trust, that we'll make it!",
+    first_step: "Make your first step! Tell us about your dream over coffee.",
+    second_step: "Your vision of idea we embody in technical plan, that conform together.",
+    third_step: "During developing we make active communication and share our results.",
+    fourth_step: "In time project release and future support.",
+    dream_team: "The Dreamers Team, which make Your Dream will come true",
     web_tech: "Developing powerfull WEB application using modern frameworks: AngularJS, BackboneJS, Ruby on Rails",
     mobile_tech: "We developing for all mobile platforms",
     desktop_tech: "Loking for experience in creating desktop applications",

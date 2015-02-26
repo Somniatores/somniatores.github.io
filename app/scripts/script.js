@@ -1,7 +1,7 @@
-// jQuery("html").niceScroll({
-//     scrollspeed: 60,
-//     mousescrollstep: 50
-// });
+jQuery("html").niceScroll({
+    scrollspeed: 60,
+    mousescrollstep: 50
+});
 
 $(function () {
   if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {

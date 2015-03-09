@@ -79,5 +79,18 @@ var texts = {
     desktop_tech: "Loking for experience in creating desktop applications",
     one_day: "One day we'll have enuff experience and resourses working only for our dreams",
     contact_step: "We're currently accepting new client projects. Think we might help? We'd love to hear from you."
-  }
+  },
+  hun: {
+    about: "Mindenkinek vannak almai. Almok amelyekhez megyünk óriási vagy kis léptekkel, de megyünk. Mi hiszük hogy az almok valóra válhatnak ha együtt  dolgozunk rajtuk!",
+    first_step: "Tegye meg az első lepést! Mesejen nekünk az almáról egy forró kávé mellet ",
+    second_step: "A maga ötletét összefoglaljuk  egy tervben, és közösen megbeszéljük aszt",
+    third_step: "A munka folyamán aktívan beszeljük meg az eredményeket",
+    fourth_step: "Igyekszünk időben elvégezni a munkát és segítünk a további fenntartásban",
+    dream_team: "Az álmodozok csapatya, aki szeretne segíteni magának",
+    web_tech: "WEB alkalmazások fejlesztése a legújabb eszközök használatával : AngularJS, BackboneJS, Ruby on Rails",
+    mobile_tech: "Modern mobil alkalmazások fejlesztése",
+    desktop_tech: "Szeretnénk új tapasztalatokat szerezni az asztali programok készítésében",
+    one_day: "Egy napon mi készek leszünk arra hogy otthagyjuk eszt a munkát és csak a saját almainkat valósítsuk meg.",
+    contact_step: "Új projektek keresünk. Van egy ötlete? Mi örömmel segítünk magának."
+  },
 };

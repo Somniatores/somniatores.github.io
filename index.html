@@ -40,19 +40,19 @@
               ng-click="setLanguage('eng')">ENG</button> -->
             <button type="button"
               class="languages btn btn-default"
-              ng-click="setLanguage('eng')">ENG</button>
+              ng-click="setLanguage('eng')">English</button>
 <!--             <button type="button"
               class="languages btn btn-default"
               ng-click="setLanguage('eng')">ENG</button> -->
             <button type="button"
               class="languages btn btn-default"
-              ng-click="setLanguage('uan')">UAN</button>
-<!--             <button type="button"
-              class="languages btn btn-default"
-              ng-click="setLanguage('hun')">HUN</button> -->
+              ng-click="setLanguage('uan')">Українська</button>
             <button type="button"
               class="languages btn btn-default"
-              ng-click="setLanguage('rus')">RUS</button>
+              ng-click="setLanguage('hun')">Magyarul</button>
+            <button type="button"
+              class="languages btn btn-default"
+              ng-click="setLanguage('rus')">Русский</button>
 
           </div>
         </div>
@@ -116,7 +116,7 @@
           </div>
           <div class="col-xs-6 col-md-4">
             <img src="app/imgs/vasya.jpg" class="img-circle center-block avatar">
-            <h3 class="text-center styled-title">Vasya Spachynskij</h3>
+            <h3 class="text-center styled-title">László Spachynskij</h3>
             <p class="text-center styled-text">Java, Android and WEB developer</p>
           </div>
         </div>
@@ -190,7 +190,7 @@
     <section id='contact-us'>
       <h1 class="text-center styled-title">Contact</h1>
 
-      <p class="text-center styled-text">We're currently accepting new client projects. Think we might help? We'd love to hear from you.</p>
+      <p class="text-center styled-text">{{language.contact_step}}</p>
       <br/>
       <p class="text-center email-text">email: the42dreamers@gmail.com</p>
       

@@ -4,7 +4,7 @@ footer {
 form {
 	width: 300px;
 }
-h1, h2, h3, .button-text, .title {
+h1, h2, h3, .slogan  {
 	font-family: 'Oleo Script', cursive;
 }
 p, a {
@@ -47,14 +47,15 @@ p, a {
 	font-style: normal;
 }
 .languages {
+	opacity: 0.6;
 	font-size: 13px;
-	background: none;
-	color: white;
+	background: #bbb;
+	
 }
 .languages:hover,
 .languages:focus {
 	color: #ccc;
-	background: none;
+	background: #eee;
 }
 /*.img-background {
 	position: fixed;
@@ -122,7 +123,7 @@ p, a {
 		height: 200px;
 	}
 	.title {
-		font-size: 40pt;
+		font-size: 45pt;
 		top: 25%;
 	}
 	.title-author {

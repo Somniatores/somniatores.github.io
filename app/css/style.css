@@ -25,6 +25,7 @@ p, a {
 	padding-bottom: 1em; 
 }
 .opacity-nav {
+	opacity: 0.5;
 	position: fixed;
 	width: 100%;
 	padding-right: 25px;
@@ -92,6 +93,11 @@ p, a {
 .footer-image {
 	position: absolute;
 	z-index: -10;
+}
+
+.email-text {
+	font-size: 20pt;
+	text-decoration: underline;
 }
 
 @media (min-width: 768px) {

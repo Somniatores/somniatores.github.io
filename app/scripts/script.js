@@ -50,7 +50,9 @@ var texts = {
     web_tech: "Рaзроботка мощных WEB приложений з использованием современных фреймворков: AngularJS, BackboneJS, Ruby on Rails",
     mobile_tech: "Мы поддерживаем весь стек разработки под мобильные платформы",
     desktop_tech: "Хотим иметь опыт в розработке настольных програм",
-    one_day: "Однажды мы будем иметь достаточно опыта и ресурсов чтобы работать только на свои мечты."
+    one_day: "Однажды мы будем иметь достаточно опыта и ресурсов чтобы работать только на свои мечты.",
+    contact_step: "Мы в постоянных поисках новых проектов. У Вас есть идея? Мы готовы Вам помочь."
+
   },
   uan: {
     about: "У кожного із нас є мрії. Мрії до яких ми рухаємося семимильними або сантиметровими кроками, але рухаємося. Ми віримо що шлях до світлого майбутнього пролягає лише через наші спільні зусилля. І як би це пафонсо не звучало, але це правда і разом ми зробимо це!",
@@ -62,7 +64,8 @@ var texts = {
     web_tech: "Розробка потужних WEB застосунків з використанням сучасних фреймворків: AngularJS, BackboneJS, Ruby on Rails",
     mobile_tech: "Ми підримуємо весь стек розробки під мобільні платформи",
     desktop_tech: "Хочемо мати досвід у створенні настільного програмного забезпечення",
-    one_day: "Одного дня ми будемо мати достатньо досвіду і ресурсів щоб працювати лише на свої мрії."
+    one_day: "Одного дня ми будемо мати достатньо досвіду і ресурсів щоб працювати лише на свої мрії.",
+    contact_step: "Ми в постійних пошуках нових проектів. У вас є ідеї? Ми із радістю допоможемо Вам."
   },
   eng: {
     about: "Everybody has a dream. Dreams we move forvard to by tiny and little steps. We belive, that our way to the bright future lies threw our collective effort. And we trust, that we'll make it!",
@@ -74,6 +77,7 @@ var texts = {
     web_tech: "Developing powerfull WEB application using modern frameworks: AngularJS, BackboneJS, Ruby on Rails",
     mobile_tech: "We developing for all mobile platforms",
     desktop_tech: "Loking for experience in creating desktop applications",
-    one_day: "One day we'll have enuff experience and resourses working only for our dreams"
+    one_day: "One day we'll have enuff experience and resourses working only for our dreams",
+    contact_step: "We're currently accepting new client projects. Think we might help? We'd love to hear from you."
   }
 };

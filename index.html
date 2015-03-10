@@ -14,10 +14,8 @@
   </head>
 
   <body id="home" ng-app="app" ng-controller="LanguageCtrl">
-    
     <nav class="opacity-nav navbar navbar-default hidden-xs" 
       role="navigation">
-
       <ul class="nav navbar-nav navbar-right">
         <li><a data-scroll href="#home">Home</a></li>
         <li><a data-scroll href="#team">Team</a></li>
@@ -26,7 +24,11 @@
         <li><a data-scroll href="#contact-us">Contact us</a></li>
       </ul>
     </nav>
-    </div>
+    
+    <div id="large-header" class="large-header">
+      <canvas id="demo-canvas">d</canvas>
+    </div>    
+
     <header >
       <div class="title">
         <p class="text-center slogan">"I have a dream...</p>
@@ -57,7 +59,6 @@
           </div>
         </div>
       </div>
-      <div class="title-parallax-window" data-parallax="scroll" data-image-src="app/imgs/macbook-air-all-faded-and-stuff.jpg"></div>
     </header>
 
     <section class="about-section center-block">
@@ -189,32 +190,11 @@
 
     <section id='contact-us'>
       <h1 class="text-center styled-title">Contact</h1>
-
       <p class="text-center styled-text">{{language.contact_step}}</p>
       <br/>
       <p class="text-center email-text">email: the42dreamers@gmail.com</p>
-      
-<!-- 
-      <form role="form" class="center-block">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Name">
-        </div>
-
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Email">
-        </div>
-
-        <textarea class="form-control" 
-          rows="3" 
-          placeholder="What do you want to ask us?">
-        </textarea>
-        <br>
-        <button type="button" 
-          class="center-block btn btn-default button-text">Submit</button>
-      </form> -->
     </section>
     
-    <img src="app/imgs/one-day2.jpg" class="footer-image img-responsive"></img>
     <div class="one-day-block center-block">
       <h1 class="text-center styled-title">One day</h1>
       <p class="text-center styled-text">{{language.one_day}}</p>  
@@ -225,6 +205,9 @@
     <script src="app/libs/smooth-scroll.js"></script>
     <script src="app/libs/parallax.js"></script>
     <script src="app/libs/nicescroll.js"></script>
+    <script src="app/libs/EasePack.min.js"></script>
+    <script src="app/libs/TweenLite.min.js"></script>
+    <script src="app/libs/Points.js"></script>
 
     <script src="app/scripts/script.js"></script>
   </body>

@@ -10,6 +10,24 @@ h1, h2, h3, .slogan  {
 p, a {
 	font-style: italic;
 }
+
+.large-header {
+	background-image: url('../imgs/demo-2-bg.jpg');
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: -10;
+}
+
+.img-header-container {
+	position: absolute;
+	top: 0px;
+	z-index: -100;
+	height: 100%;
+	width: 100%;
+}
 .title-parallax-window {
 	height: 600px;
 }
@@ -48,7 +66,7 @@ p, a {
 }
 .languages {
 	opacity: 0.6;
-	font-size: 13px;
+	font-size: 10px;
 	background: #bbb;
 	
 }
@@ -86,18 +104,17 @@ p, a {
 	font-size: 8pt;
 }
 .one-day-block {
-	width: 80%;
+	width: 100%;
 	color: black;
-	padding-top: 10px;
-}
-
-.footer-image {
-	position: absolute;
-	z-index: -10;
+	overflow: hidden;
+	padding: 30px;
+	background-size: cover;
+	background-position: center center;
+	background-image: url('../imgs/one-day2.jpg');
 }
 
 .email-text {
-	font-size: 20pt;
+	font-size: 12pt;
 	text-decoration: underline;
 }
 
@@ -146,10 +163,14 @@ p, a {
 		font-size: 20pt;
 	}
 	.one-day-block {
-		padding-top: 200px;
+		padding: 100px;
 	}
 	.row {
 		max-width: 1000px;
+	}
+
+	.email-text {
+		font-size: 20pt;
 	}
 }
 

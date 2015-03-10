@@ -68,7 +68,7 @@ p, a {
 	opacity: 0.6;
 	font-size: 10px;
 	background: #bbb;
-	
+	color: black;
 }
 .languages:hover,
 .languages:focus {
@@ -105,7 +105,7 @@ p, a {
 }
 .one-day-block {
 	width: 100%;
-	color: black;
+	color: white;
 	overflow: hidden;
 	padding: 30px;
 	background-size: cover;

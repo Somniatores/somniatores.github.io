@@ -81,16 +81,16 @@ var texts = {
     contact_step: "We're currently accepting new client projects. Think we might help? We'd love to hear from you."
   },
   hun: {
-    about: "Mindenkinek vannak almai. Almok amelyekhez megyünk óriási vagy kis léptekkel, de megyünk. Mi hiszük hogy az almok valóra válhatnak ha együtt  dolgozunk rajtuk!",
-    first_step: "Tegye meg az első lepést! Mesejen nekünk az almáról egy forró kávé mellet ",
-    second_step: "A maga ötletét összefoglaljuk  egy tervben, és közösen megbeszéljük aszt",
-    third_step: "A munka folyamán aktívan beszeljük meg az eredményeket",
-    fourth_step: "Igyekszünk időben elvégezni a munkát és segítünk a további fenntartásban",
-    dream_team: "Az álmodozok csapatya, aki szeretne segíteni magának",
+    about: "Mindenkinek vannak álmai. Álmok, melyek eléréséhez kisebb vagy nagyobb lépéseket kell megtennünk. Mi hisszük, hogy az álmok valóra válhatnak.",
+    first_step: "Az első lépést megteheti velünk. Meséljen nekünk az álmáról egy forró kávé vagy tea mellett.",
+    second_step: "Az elképzeláseiből egy tervet készítünk Önnek.",
+    third_step: "A munka folyamán rendszeresen tájékoztatjuk az eredményekről.",
+    fourth_step: "A vállalt munkát igyekszünk időben elkészíteni, és amennyiben szükséges a a honlap további működtetésében is segítünk.",
+    dream_team: "Az álmodozó csapat, akik szívesen segítenek Önnek álmai megvalósításában.",
     web_tech: "WEB alkalmazások fejlesztése a legújabb eszközök használatával : AngularJS, BackboneJS, Ruby on Rails",
     mobile_tech: "Modern mobil alkalmazások fejlesztése",
     desktop_tech: "Szeretnénk új tapasztalatokat szerezni az asztali programok készítésében",
-    one_day: "Egy napon mi készek leszünk arra hogy otthagyjuk eszt a munkát és csak a saját almainkat valósítsuk meg.",
-    contact_step: "Új projektek keresünk. Van egy ötlete? Mi örömmel segítünk magának."
+    one_day: "Egy napon szeretnénk hozzáfogni a saját álmaink megvalósításához.",
+    contact_step: "Új projektek megvalósítását vállaljuk. Van egy ötlete? Keressen minket. Örömmel segítünk a kivitelezésben."
   },
 };
